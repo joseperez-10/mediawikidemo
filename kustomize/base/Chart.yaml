@@ -1,0 +1,11 @@
+apiVersion: v2
+name: mediawikijp
+description: A Helm chart for Kubernetes-MediaWikiJP
+type: application
+version: 0.1.0
+appVersion: 1.0
+
+dependencies:
+- name: mediawiki
+  version: 16.1.5
+  repository: oci://registry-1.docker.io/bitnamicharts/mediawiki
