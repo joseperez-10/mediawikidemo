@@ -17,7 +17,7 @@ global:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  storageClass: ""
+  storageClass: "csi-vsphere-sc-vol05"
 
 ## @section Common parameters
 
